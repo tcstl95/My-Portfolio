@@ -2,7 +2,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
  }
-
+/* Header and Navigation's own CSS classes*/
 nav{
     display: flex;
     justify-content: center;
@@ -15,6 +15,7 @@ header{
     background-color: lightgoldenrodyellow;
 
 }
+/*Setting the background color*/
 body{
     background-color: lightgoldenrodyellow;
 }
@@ -31,6 +32,7 @@ p{
 img{
     width: 10%;
 }
+/* Each image has its own CSS class in order for me to resize them to fit on page*/
 .Horiseon-Img{
  width: 60%;
 }
@@ -47,7 +49,7 @@ img{
 h1{
     text-align: center;
 }
-
+/* Each section of the portfolio has its own class so I can adjust their sizes on the page*/
 .About-Me{
     padding: 50px;
     height: 617px;
@@ -73,7 +75,7 @@ main{
 ul a {
     color:black
 }
-
+/* This provides the responsive layout in order for this webpage to fit on a mobile device*/
 @media screen and (max-width: 600px) {
     main,
     nav {
